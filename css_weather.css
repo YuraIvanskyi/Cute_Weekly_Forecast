@@ -1,0 +1,76 @@
+#in_header {
+    font-family:'Pacifico', cursive;
+    text-align: center;
+    font-weight: 700;
+    font-size: 80px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+header {
+    font-family:'Pacifico', cursive;
+    text-align: center;
+    font-size: 30px;
+    margin-left: 25%;
+    background-image: url("Birds.gif");
+    background-repeat: no-repeat;
+    margin-right: 25%;
+}
+body {
+    margin: 0;
+    background: url("Background2.jpg");
+}
+#forecast_container {
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 25px;
+    margin-left: 27%;
+    margin-right: 27%;
+    box-shadow: #ACDADA 4px 4px 4px 4px;
+    padding: 20px 20px 20px 20px;
+    border:1px;
+}
+.Week li{
+    border-radius: 25px;
+    margin:10px 10px 10px 10px;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: #ffffff;
+    box-shadow: #ACDADA 5px 5px 5px 5px inset;
+    font-family: 'Poiret One', cursive;
+    display: block;
+    text-align: left;
+    padding: 5%;
+}
+.Week li:hover {
+    background-color: highlight;
+}
+.location {
+    display: inline-block;
+    text-decoration: underline;
+}
+.Week {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+}
+.day {
+    display: inline;
+    margin:0;
+}
+.cond {
+    display: inline;
+    position: relative;
+}
+.Week li img {
+    margin-left: 10%;
+    margin-right: 10%;
+    float: left;
+}
+footer {
+    font-family:'Pacifico', cursive;
+    font-size: 28px;
+    margin-top: 1%;
+    width: 100%;
+    margin-bottom: 1%;
+    text-align: center;
+}
