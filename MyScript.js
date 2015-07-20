@@ -18,7 +18,7 @@ $(function(){
                 var city = cache.data.city.name;
                 var country = cache.data.city.country;
                 $.each(cache.data.list, function(){
-                    var localTime = new Date(this.dt*1000 - offset);
+                    var localTime = new Date(this.dt*1000 + offset);
                     addWeather(
                         this.weather[0].icon,
                         moment(localTime).calendar(),
