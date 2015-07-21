@@ -1,0 +1,17 @@
+var click_count=0;
+    var likebtn= $('#Liker');
+    var ip_list=[];
+    var like_count=$('#field');
+    $(likebtn).click(function(ip) {
+        ip=$.getJSON("https://api.ipify.org?format=jsonp&callback=?",
+            function(json) {
+                return(json.ip);
+            }
+        );
+        for(var i=0;i<ip_list.length;i++) {
+            if(ip===ip_list[i])return click_count;
+        }
+        ip_list.length=ip;
+        return click_count+1;
+    })
+    like_count.append(' ',click_count);
