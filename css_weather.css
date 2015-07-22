@@ -81,3 +81,14 @@ footer {
         margin-left: auto;
     }
 }
+@media (min-width: 1025px) and (max-width: 1500px) {
+    #forecast_container {
+        margin-left:10% ;
+        margin-right:10%;
+    }
+    header{
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+}
