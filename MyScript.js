@@ -32,7 +32,7 @@ $(function(){
             }
             else{
                 var weatherAPI = 'http://api.openweathermap.org/data/2.5/forecast/daily?lat=' + position.coords.latitude +
-                    '&lon=' + position.coords.longitude + '&cnt=7&callback=?';
+                    '&lon=' + position.coords.longitude + '&cnt=7&callback=?&APPID=7a177fccca75ea145c8241ef607ddefc';
                 $.getJSON(weatherAPI, function(response){
                     localStorage.weatherCache = JSON.stringify({
                         timestamp:(new Date()).getTime(),
